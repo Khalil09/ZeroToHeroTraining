@@ -22,6 +22,17 @@
   .tg .tg-yw4l{vertical-align:top}
   </style>
 
+<script>
+  $.ajax({
+    method: "GET",
+    url: "http://codeforces.com/api/user.rating?handle=claudiosegala"
+  })
+  .done(function(res){
+    console.log(res);
+  })
+</script>
+  
+  
 </head>
 <body>
   <nav class="navbar navbar-default">
