@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
   <head>
@@ -10,3 +11,27 @@
     <!-- built files will be auto injected -->
   </body>
 </html>
+=======
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+
+  <script>
+    $.ajax({
+      url: "http://codeforces.com/api/user.rating?handle=claudiosegala",
+      context: document.body
+    }).done(function() {
+      console.log($( this ))
+    });
+  </script>
+  
+  
+</head>
+<body>
+  
+</body>
+>>>>>>> ea608075b2372590d51ce3856207a9a2f3b85074
